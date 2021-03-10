@@ -1,0 +1,36 @@
+#input-container {
+  display: flex;
+  flex-direction: row;
+}
+
+#input-header-div,
+#input-contact-div {
+  width: 20%;
+}
+
+#input-div {
+  width: 60%;
+}
+
+#output-container {
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+}
+
+#output-cs-div,
+#output-js-div,
+#output-jslint-div {
+  padding: 5px;
+  width: 50%;
+}
+/*
+textarea {
+  overflow: hidden;
+  white-space: nowrap;
+  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  overflow: -moz-scrollbars-vertical;
+  overflow: -moz-scrollbars-horizontal;
+} */
